@@ -15,6 +15,7 @@ func main() {
 	fmt.Println("v2 --- A random male baby name:", naming2.CreateBabyName(true))
 
 	// ----------------------------below v3------------------------------------
+	// CreateBabyName second parameter is uint, so no need to consider negative length
 	male, maleErr := naming3.CreateBabyName(true, 4)
 	if maleErr == nil {
 		fmt.Printf("v3 --- male baby found (min length %v): %v\n", 4, male)

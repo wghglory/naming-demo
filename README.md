@@ -1,2 +1,3 @@
 # naming-demo
-VMware go workshop homework, which imports baby-naming
+
+This is VMware go workshop's homework, which imports baby-naming.
